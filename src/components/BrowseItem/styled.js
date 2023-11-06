@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 20vw;
-  height: 25vw;
+  width: 14vw;
+  height: 19vw;
   border-radius: 10px;
   background: #fff;
-  padding: 5vw;
+  padding: 8vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
