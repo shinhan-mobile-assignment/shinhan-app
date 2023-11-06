@@ -37,6 +37,10 @@ const RankingItem = {
   },
 };
 
+export const Wrapper = styled.div`
+  display: flex;
+`;
+
 export const StyledCard = styled.div`
   ${(props) => RankingItem[props.theme]}
   &:active, &:focus {

@@ -33,12 +33,12 @@ const textStyles = {
   },
   text2_up: {
     fontWeight: 'bold',
-    fontSize: '0.6rem', 
+    fontSize: '0.6rem',
     color: '#FC2B4B',
   },
   text2_down: {
     fontWeight: 'bold',
-    fontSize: '0.6rem', 
+    fontSize: '0.6rem',
     color: '#3376EB',
   },
   text3: {
@@ -78,9 +78,17 @@ const textStyles = {
     fontSize: '0.7rem',
     color: '#4A2AEF',
   },
-  text6: {
+  text_rank: {
     fontWeight: 'bold',
-    fontSize: '1.5rem',
+    fontSize: '1rem',
+    color: '#3F4CF9',
+    marginRight: '5vw',
+  },
+  menu: {
+    fontWeight: 'bold',
+    fontSize: '0.6rem',
+    color: '#3F4CF9',
+    marginLeft: '2vw',
   },
 };
 

@@ -29,6 +29,7 @@ export const SlideContainer = styled.div`
   width: 90vw;
   height: 45vw;
   padding: 2.5vw 5vw;
+  margin-bottom: 9.5vh;
 `;
 
 export const SlideWrapper = styled.ul`

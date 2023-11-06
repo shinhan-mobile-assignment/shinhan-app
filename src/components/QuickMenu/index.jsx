@@ -38,7 +38,7 @@ const quickMenuItems = [
 const QuickMenu = () => {
   return (
     <StyledCard theme="quickMenu">
-      <Text theme="text2_click">Quick Menu</Text>
+      <Text theme="menu">Quick Menu</Text>
       <StyledCard theme="inner">
         {quickMenuItems.map((item, index) => (
           <QuickMenuBtn

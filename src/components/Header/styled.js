@@ -19,3 +19,7 @@ export const Image = styled.img`
   width: 6%;
   height: auto;
 `;
+
+export const Container = styled.div`
+  overflow-x: hidden;
+`;

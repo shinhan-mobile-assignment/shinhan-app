@@ -2,19 +2,18 @@ import styled from 'styled-components';
 
 const QuickMenu = {
   inner: {
-    width: '100vw',
+    width: '98vw',
     height: '11vh',
     display: 'flex',
-    padding: '1vh 1vw',
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
     alignItems: 'center',
   },
   quickMenu: {
     width: '98vw',
-    height: '13vh',
+    height: '12vh',
     background: 'white',
     display: 'flex',
-    padding: '0 1vw',
+    padding: '1.5vh 1vw',
     flexDirection: 'column',
     justifyContent: 'space-around',
     marginBottom: '2vh',
