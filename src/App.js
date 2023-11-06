@@ -1,15 +1,21 @@
 import './styles/reset.css';
-import { Text, Input, Button, StyledCard, Daily, QuickMenu,ChartItem, Chart,Ranking } from './components';
-import { Header, Stock, Footer } from './components';
+import {
+  Header,
+  Footer,
+  QuickMenu,
+  Chart,
+  Ranking,
+  Browse,
+} from './components';
 
 function App() {
   return (
     <>
-      <Chart></Chart>
-      <QuickMenu></QuickMenu>
-      <Ranking/>
       <Header />
-      <Stock />
+      <Chart />
+      <QuickMenu />
+      <Ranking />
+      <Browse />
       <Footer />
     </>
   );

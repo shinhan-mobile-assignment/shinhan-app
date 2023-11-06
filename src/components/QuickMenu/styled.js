@@ -2,25 +2,24 @@ import styled from 'styled-components';
 
 const QuickMenu = {
   inner: {
-    width: '23rem',
-    height:'3.5rem',
+    width: '100vw',
+    height: '11vh',
     display: 'flex',
+    padding: '1vh 1vw',
     justifyContent: 'space-around',
     alignItems: 'center',
   },
   quickMenu: {
-    width: '24rem',
-    height: '4.5rem',
-    boxSizing: 'border-box',
-    background: "#FFF",
-    padding: '0.5rem',
+    width: '98vw',
+    height: '13vh',
+    background: 'white',
     display: 'flex',
+    padding: '0 1vw',
     flexDirection: 'column',
     justifyContent: 'space-around',
-  }
-  
+    marginBottom: '2vh',
+  },
 };
-
 
 export const StyledCard = styled.div`
   ${(props) => QuickMenu[props.theme]}
@@ -32,6 +31,3 @@ export const StyledCard = styled.div`
     cursor: pointer;
   }
 `;
-
-
-

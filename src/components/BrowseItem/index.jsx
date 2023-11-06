@@ -5,7 +5,7 @@ import { Wrapper, Image } from './styled';
 const BrowseItem = ({ title, imgsrc }) => {
   return (
     <Wrapper>
-      <Text theme="text1">{title}</Text>
+      <Text theme="text2">{title}</Text>
       <Image src={imgsrc} />
     </Wrapper>
   );

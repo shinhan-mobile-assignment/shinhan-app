@@ -2,26 +2,24 @@ import styled from 'styled-components';
 
 const Ranking = {
   RankingTitle: {
-    width: '23rem',
-    height:'3rem',
+    width: '90vw',
+    height: '3rem',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    margin:'1rem',
+    margin: '1rem',
   },
   RankingWrap: {
-    width: '24rem',
+    width: '100vw',
     height: '24rem',
-    background: "#FFF",
+    background: '#FFF',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     boxSizing: 'border-box',
-
-  }
-  
+    marginBottom: '1.5vh',
+  },
 };
-
 
 export const StyledCard = styled.div`
   ${(props) => Ranking[props.theme]}
@@ -33,6 +31,3 @@ export const StyledCard = styled.div`
     cursor: pointer;
   }
 `;
-
-
-

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const QuickMenuBtn = {
   quick: {
-    width: '3rem',
+    width: '15%',
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'column',
@@ -10,7 +10,6 @@ const QuickMenuBtn = {
     textAlign: 'center',
   },
 };
-
 
 export const StyledCard = styled.div`
   ${(props) => QuickMenuBtn[props.theme]}

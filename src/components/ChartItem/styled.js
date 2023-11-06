@@ -7,42 +7,36 @@ const ChartItem = {
     padding: '0.5rem',
     margin: '0.5rem',
     display: 'flex',
-    flexDirection:'column',
+    flexDirection: 'column',
     justifyContent: 'space-around',
     alignItems: 'center',
-
   },
-  chartInfo:{
+  chartInfo: {
     width: '5rem',
     height: '1rem',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
   },
-  rateInfo:{
+  rateInfo: {
     width: '5rem',
     height: '1.5rem',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
-
-
   },
-  stockInfo:{
+  stockInfo: {
     width: '10rem',
     height: '1.5rem',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around',
   },
-
-  
 };
-
 
 export const StyledCard = styled.div`
   ${(props) => ChartItem[props.theme]}
-  &:active, &:focus { 
+  &:active, &:focus {
     transform: scale(0.95);
   }
   &:hover {
@@ -51,5 +45,7 @@ export const StyledCard = styled.div`
   }
 `;
 
-
-
+export const Image = styled.img`
+  width: 20%;
+  height: auto;
+`;

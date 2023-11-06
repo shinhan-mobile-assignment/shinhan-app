@@ -25,7 +25,7 @@ const Browse = () => {
 
   return (
     <SlideContainer>
-      <Text theme="text6">둘러보기</Text>
+      <Text theme="text1">둘러보기</Text>
       <SlideWrapper onMouseEnter={onStop} onMouseLeave={onRun}>
         <Slide className={'slide original'.concat(animate ? '' : ' stop')}>
           {slides.map((s, i) => (

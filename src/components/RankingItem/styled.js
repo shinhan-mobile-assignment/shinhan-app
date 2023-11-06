@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const RankingItem = {
   stockRate_up: {
     padding: '0.15rem',
-    background:"#FFD7D7",
+    background: '#FFD7D7',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -11,13 +11,13 @@ const RankingItem = {
   },
   stockRate_down: {
     padding: '0.15rem',
-    background:"#DAFFFF",
+    background: '#DAFFFF',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: '0.1rem',
   },
-  stockInfo:{
+  stockInfo: {
     width: '10rem',
     height: '1.5rem',
     display: 'flex',
@@ -26,22 +26,20 @@ const RankingItem = {
     textAlign: 'left',
   },
   rankingItem: {
-    width: '23rem',
+    width: '90vw',
     height: '1.5rem',
-    background: "#FFF",
+    background: '#FFF',
     padding: '0.5rem',
     margin: '0.5rem',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
-  }
-  
+  },
 };
-
 
 export const StyledCard = styled.div`
   ${(props) => RankingItem[props.theme]}
-  &:active, &:focus { 
+  &:active, &:focus {
     transform: scale(0.95);
   }
   &:hover {
@@ -49,6 +47,3 @@ export const StyledCard = styled.div`
     cursor: pointer;
   }
 `;
-
-
-
