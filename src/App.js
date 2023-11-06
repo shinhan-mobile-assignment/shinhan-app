@@ -1,11 +1,13 @@
 import './styles/reset.css';
-import { Text, Input } from './components';
+import { Text, Input, Button, StyledCard, Daily, QuickMenu,ChartItem, Chart,Ranking } from './components';
 
 function App() {
   return (
     <>
-      <Text theme="text1">안녕하세요. 빌드 테스트</Text>
-      <Input />
+      <Chart></Chart>
+      <QuickMenu></QuickMenu>
+      <Ranking/>
+
     </>
   );
 }
