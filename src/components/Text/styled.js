@@ -23,12 +23,12 @@ const textStyles = {
   },
   text2: {
     fontWeight: 'bold', //10px
-    fontSize: '0.6rem', 
+    fontSize: '0.6rem',
     color: '#000000',
   },
   text2_click: {
     fontWeight: 'bold',
-    fontSize: '0.6rem', 
+    fontSize: '0.6rem',
     color: '#3F4CF9',
   },
   text2_up: {
@@ -71,7 +71,17 @@ const textStyles = {
     fontSize: '0.5rem',
     color: '#A7A8AA',
   },
-
+  text5: {
+    fontSize: '0.7rem',
+  },
+  text5_other: {
+    fontSize: '0.7rem',
+    color: '#4A2AEF',
+  },
+  text6: {
+    fontWeight: 'bold',
+    fontSize: '1.5rem',
+  },
 };
 
 export const StyledText = styled.p`
