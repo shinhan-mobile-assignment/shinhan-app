@@ -1,3 +1,9 @@
 export { default as Button } from './Button';
 export { default as Text } from './Text';
 export { default as Input } from './Input';
+export { default as Header } from './Header';
+export { default as Footer } from './Footer';
+export { default as Browse } from './Browse';
+export { default as BrowseItem } from './BrowseItem';
+export { default as StockItem } from './StockItem';
+export { default as Stock } from './Stock';

@@ -1,26 +1,28 @@
 import styled from 'styled-components';
 
 export const InputWrapper = styled.div`
-  display: flex;
-  width: 50vw;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
+  width: 60%;
+  background: #e8f0fd;
+  position: relative;
+  box-shadow: 0px 1px 5px -3px gray;
+`;
+
+export const ImageWrapper = styled.img`
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
 `;
 
 export const UserInput = styled.input`
-  margin-top: 5px;
-  height: 7vh;
-  width: 100%;
-  border-radius: 20px;
-  border: 2px solid #ececec;
-  box-shadow: 3px 5px 8px -3px gray;
-  padding-left: 1vw;
-`;
-
-export const SummaryInput = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  height: 6vh;
+  width: 60%;
+  border: none;
+  padding: 0% 20%;
+  background: #e8f0fd;
+  &:focus {
+    outline: none;
+  }
 `;

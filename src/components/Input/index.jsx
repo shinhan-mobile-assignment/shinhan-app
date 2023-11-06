@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { InputWrapper, UserInput, SummaryInput } from './styled';
+import { InputWrapper, UserInput, ImageWrapper } from './styled';
+import search from '../../assets/images/search.svg';
 
 const Input = () => {
   const [inputText, setInputText] = useState('');
@@ -9,15 +10,10 @@ const Input = () => {
   };
 
   return (
-    <SummaryInput>
-      <InputWrapper>
-        <UserInput
-          value={inputText}
-          onChange={handleChange}
-          placeholder="input"
-        />
-      </InputWrapper>
-    </SummaryInput>
+    <InputWrapper>
+      <ImageWrapper src={search} />
+      <UserInput value={inputText} onChange={handleChange} placeholder="검색" />
+    </InputWrapper>
   );
 };
 
