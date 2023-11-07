@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from '../../components';
-import { StyledCard, Wrapper } from './styled';
+import { StyledCard } from './styled';
 
 const RankingItem = ({
   rankNo,
@@ -25,13 +25,11 @@ const RankingItem = ({
 
   return (
     <StyledCard theme="rankingItem">
-      <Wrapper>
-        <Text theme="text_rank">{rankNo}</Text>
-        <StyledCard theme="stockInfo">
-          <Text theme="text2">{stockName}</Text>
-          <Text theme="text4_other">거래량 {stockTrade}주</Text>
-        </StyledCard>
-      </Wrapper>
+      <Text theme="text_rank">{rankNo}</Text>
+      <StyledCard theme="stockInfo">
+        <Text theme="text2">{stockName}</Text>
+        <Text theme="text4_other">거래량 {stockTrade}주</Text>
+      </StyledCard>
       <Text theme={text1UpTheme}>{stockPrice}</Text>
       <StyledCard theme={stockRate}>
         <Text theme={changeRateTheme}>{changeRate}%</Text>

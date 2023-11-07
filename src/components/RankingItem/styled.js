@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 const RankingItem = {
   stockRate_up: {
+    width: '2.7rem',
+    height: '1rem',
     padding: '0.15rem',
     background: '#FFD7D7',
     display: 'flex',
@@ -10,6 +12,8 @@ const RankingItem = {
     borderRadius: '0.1rem',
   },
   stockRate_down: {
+    width: '2.7rem',
+    height: '1rem',
     padding: '0.15rem',
     background: '#DAFFFF',
     display: 'flex',
@@ -26,20 +30,17 @@ const RankingItem = {
     textAlign: 'left',
   },
   rankingItem: {
-    width: '90vw',
+    width: '100vw',
     height: '1.5rem',
     background: '#FFF',
     padding: '0.5rem',
-    margin: '0.5rem',
-    display: 'flex',
-    justifyContent: 'space-around',
+    marginBottom: '0.4rem',
+    textAlign: 'right',
+    display: 'grid',
+    gridTemplateColumns: '1fr 2fr 1fr 1fr',
     alignItems: 'center',
   },
 };
-
-export const Wrapper = styled.div`
-  display: flex;
-`;
 
 export const StyledCard = styled.div`
   ${(props) => RankingItem[props.theme]}

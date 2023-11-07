@@ -13,13 +13,15 @@ const textStyles = {
   },
   text1_up: {
     fontWeight: 'bold',
-    fontSize: '1rem',
+    fontSize: '0.9rem',
     color: '#FC2B4B',
+    marginRight: '2vw',
   },
   text1_down: {
     fontWeight: 'bold',
-    fontSize: '1rem',
+    fontSize: '0.9rem',
     color: '#3376EB',
+    marginRight: '2vw',
   },
   text2: {
     fontWeight: 'bold', //10px

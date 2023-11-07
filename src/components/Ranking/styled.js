@@ -7,7 +7,7 @@ const Ranking = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    margin: '1rem',
+    margin: '0.1rem',
   },
   RankingWrap: {
     width: '100vw',
