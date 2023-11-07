@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const CardStyles = {
   chartCard: {
-    width: '20.3125rem',
+    width: '90vw',
     height: '11.875rem',
     flexShrink: 0,
     borderRadius: '10px',
@@ -14,7 +14,7 @@ const CardStyles = {
   },
   noticeCard: {
     marginTop: '1vh',
-    width: '80vw',
+    width: '90vw',
     height: '1.875rem',
     borderRadius: '10px',
     background: '#E7EFFC',

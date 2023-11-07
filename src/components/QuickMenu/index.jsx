@@ -10,7 +10,7 @@ import q6 from '../../assets/images/QuickMenu6.svg';
 
 const quickMenuItems = [
   {
-    title: '증시일정 1',
+    title: '증시일정',
     imageSource: q1,
   },
   {

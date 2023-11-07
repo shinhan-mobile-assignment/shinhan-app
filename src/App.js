@@ -1,4 +1,3 @@
-import './styles/reset.css';
 import {
   Header,
   Footer,
@@ -8,6 +7,7 @@ import {
   Browse,
 } from './components';
 import { Container } from './components/Header/styled';
+import './styles/reset.css';
 
 function App() {
   return (

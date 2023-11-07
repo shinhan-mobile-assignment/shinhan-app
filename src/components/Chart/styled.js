@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Chart = {
   boardInfo: {
-    width: '80vw',
+    width: '90vw',
     height: '1.25rem',
     margin: '0.5rem',
     display: 'flex',
@@ -17,7 +17,7 @@ const Chart = {
     alignItems: 'center',
   },
   chartCard: {
-    width: '80vw',
+    width: '90vw',
     height: '11.875rem',
     margin: '0.5rem',
     flexShrink: 0,
