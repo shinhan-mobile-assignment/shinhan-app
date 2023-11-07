@@ -91,16 +91,7 @@ const Ranking = () => {
         <Text theme="Text1"> &gt; </Text>
       </StyledCard>
       {isOpen && (
-        <AlertModal
-          style={{
-            top: '50vh',
-            left: '50vw',
-            transform: 'translate(-50%, -50%)',
-            position: 'fixed',
-          }}
-          setModalOpen={setIsOpen}
-          selectedItem={selectedItem}
-        />
+        <AlertModal setModalOpen={setIsOpen} selectedItem={selectedItem} />
       )}
       <StyledCard theme="RankingItems">
         {RankingItems.slice(0, 7).map((item, index) => (
