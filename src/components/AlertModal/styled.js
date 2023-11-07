@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  position: absolute;
-  z-index: 100;
+  position: fixed;
   background: white;
   color: #ececec;
   width: 52vw;
+  zIndex: 100,
   height: 25vw;
   border-radius: 1vw;
   border: 0.5px solid #fdfafa;

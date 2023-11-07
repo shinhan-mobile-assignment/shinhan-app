@@ -21,9 +21,10 @@ const AlertModal = ({ setModalOpen, selectedItem }) => {
   return (
     <div
       style={{
-        top: '40vh',
+        top: '20vh',
         left: '20vw',
         position: 'fixed',
+        zIndex: '100',
       }}
     >
       <Container>
